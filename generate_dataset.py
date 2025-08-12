@@ -3,7 +3,7 @@ import random
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
-OUT = "dataset"
+OUT = "Letters_on_picture"
 IM_DIR = os.path.join(OUT, "images")
 ANN_DIR = os.path.join(OUT, "annotations")
 os.makedirs(IM_DIR, exist_ok=True)

@@ -1,4 +1,3 @@
-# infer.py
 import torch, torchvision
 from PIL import Image
 import torchvision.transforms as T
